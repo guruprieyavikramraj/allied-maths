@@ -1,0 +1,69 @@
+Skip to content
+Chat history
+
+You said:
+basic gti hub flow
+ChatGPT said:
+Here’s a basic GitHub workflow (Git flow) that outlines how to manage a project using Git and GitHub, especially useful for beginners:
+
+🔁 Basic GitHub Workflow
+✅ 1. Create a GitHub Repository
+Go to GitHub
+
+Click "New Repository"
+
+Name your repo (e.g., saree-optimization)
+
+Choose Public or Private
+
+Initialize with README.md (optional)
+
+🖥️ 2. Clone the Repository to Your Local Machine
+git clone https://github.com/your-username/repo-name.git
+📂 3. Make Changes Locally
+Open the folder
+
+Add or edit your files (e.g., Python code, LaTeX, datasets)
+
+➕ 4. Stage the Changes
+git add .
+This adds all modified files to the staging area.
+
+💬 5. Commit the Changes
+git commit -m "Add initial optimization model"
+A meaningful commit message helps others understand your change.
+
+⬆️ 6. Push to GitHub
+git push origin main
+(Use main or master, depending on your repo's default branch)
+
+🔃 7. Pull Latest Changes (if team project)
+git pull origin main
+Always pull before you start making changes if you're working in a team.
+
+🌿 Optional: Use Branches for Features
+git checkout -b feature/branch-name
+Make changes → Commit → Push → Create a Pull Request on GitHub
+
+✅ Summary Flow
+# One-time
+git clone repo-url
+
+# For every change
+git pull
+# make changes
+git add .
+git commit -m "message"
+git push
+Let me know if you want this as a handout or visual diagram.
+
+Do you like this personality?
+
+
+
+
+
+
+No file chosenNo file chosen
+ChatGPT can make mistakes. Check important info. See Cookie Preferences.
+
